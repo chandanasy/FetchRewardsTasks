@@ -2,6 +2,22 @@
 
 Tasks for the Apprenticeship program at FETCH.
 
+## Directory Structure 
+FetchRewardsTasks/
+├── Task1/
+│   ├── SentEmbed.py
+│
+│── Task2/
+   ├── __pycache__/
+   ├── DataPrep.py
+   ├── evaluate.py
+   ├── main.py
+   ├── main_t4.py
+   ├── model.py
+   ├── train.py
+   ├── train_t4.py
+
+
 ## Setup
 
 1. **Clone the repository:**
