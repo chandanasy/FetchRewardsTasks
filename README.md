@@ -60,11 +60,8 @@ The Task 2 directory also contains a script `main_t4.py` for running the model w
     python Task2/main_t4.py
     ```
 
-**Description:**
-The `main_t4.py` script is similar to `main.py` but incorporates layer-wise learning rates for fine-tuning the model. It includes:
 
-
-Feel free to reach out if you have any questions or issues running the code!
+Feel free to reach out at cs7074@nyu.edu if you have any questions or issues running the code 
 
 
 
