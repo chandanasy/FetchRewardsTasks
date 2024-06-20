@@ -1,6 +1,7 @@
 # FetchRewardsTasks
 
 Tasks for the Apprenticeship program at FETCH.
+Writeup for all the tasks - https://docs.google.com/document/d/1ir0DSKFcVUYqPHj7bfXPo-nzZw3FxmWADMV0RC6q6yg/edit
 ## Setup
 
 1. **Clone the repository:**
