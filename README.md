@@ -4,18 +4,28 @@ Tasks for the Apprenticeship program at FETCH.
 
 ## Directory Structure 
 FetchRewardsTasks/
+│
 ├── Task1/
 │   ├── SentEmbed.py
+│   └── __init__.py
 │
-│── Task2/
-   ├── __pycache__/
-   ├── DataPrep.py
-   ├── evaluate.py
-   ├── main.py
-   ├── main_t4.py
-   ├── model.py
-   ├── train.py
-   ├── train_t4.py
+├── Task2/
+│   ├── __pycache__/
+│   ├── DataPrep.py
+│   ├── evaluate.py
+│   ├── main.py
+│   ├── main_t4.py
+│   ├── model.py
+│   ├── train.py
+│   ├── train_t4.py
+│   └── __init__.py
+│
+├── .gitignore
+├── .gitattributes
+├── README.md
+├── requirements.txt
+└── .dockerignore
+
 
 
 ## Setup
