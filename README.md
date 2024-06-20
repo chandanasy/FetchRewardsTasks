@@ -1,6 +1,17 @@
 Tasks for the Apprentinceship program at FETCH.
 
 Summary of Task 4:
+Rationale for Layer-wise Learning Rates:
+Fine-tuning Pre-trained Layers:
+
+Pre-trained transformer layers have already learned useful representations during the pre-training phase. A smaller learning rate (encoder_lr) helps in fine-tuning these layers gently, ensuring that the pre-trained knowledge is not lost abruptly.
+Training New Layers:
+
+The classifier heads (classifier_task_a and classifier_task_b) are new and randomly initialized. These layers require a higher learning rate (classifier_lr) to learn task-specific features quickly.
+Regularization:
+
+Weight decay is used to prevent overfitting. Different weight decay values can be set for parameters that do not include bias and LayerNorm weights to maintain stability during training.
+
 Layer-wise Learning Rates:
 
 Base Learning Rate: 2e-5
