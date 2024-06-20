@@ -1,6 +1,3 @@
-Sure, here's the completed `README.md` with detailed instructions for Task 1, including running the code and what it does.
-
-```markdown
 # FetchRewardsTasks
 
 Tasks for the Apprenticeship program at FETCH.
@@ -31,9 +28,9 @@ Tasks for the Apprenticeship program at FETCH.
 The Task 1 directory contains the script `SentEmbed.py`, which is used for generating sentence embeddings.
 
 **To run the code for Task 1:**
-```bash
-python Task1/SentEmbed.py
-```
+    ```bash
+    python Task1/SentEmbed.py
+    ```
 
 **Description:**
 The `SentEmbed.py` script is designed to process text data and generate embeddings for sentences using a pre-trained model. It performs the following steps:
@@ -58,9 +55,9 @@ The script will generate embeddings for the input sentences and save them in a s
 The Task 2 directory contains multiple scripts for data preparation, model training, and evaluation.
 
 **To run the code for Task 2:**
-```bash
-python Task2/main.py
-```
+    ```bash
+    python Task2/main.py
+    ```
 
 **Description:**
 The `main.py` script orchestrates the entire process of loading the dataset, training the model, and evaluating its performance. It includes the following steps:
@@ -86,9 +83,9 @@ Task 3 involves training considerations for the IMDb multi-task model. The train
 The Task 2 directory also contains a script `main_t4.py` for running the model with layer-wise learning rates.
 
 **To run the code with layer-wise learning rates for Task 4:**
-```bash
-python Task2/main_t4.py
-```
+    ```bash
+    python Task2/main_t4.py
+    ```
 
 **Description:**
 The `main_t4.py` script is similar to `main.py` but incorporates layer-wise learning rates for fine-tuning the model. It includes:
@@ -105,9 +102,7 @@ The `main_t4.py` script is similar to `main.py` but incorporates layer-wise lear
    - Prints the performance metrics for both tasks.
 
 Feel free to reach out if you have any questions or issues running the code!
-```
 
-Place this `README.md` file in the root directory of your GitHub repository. This will help users understand how to set up their environment and run your code effectively.
 To run the code for Task 1, execute the following command:
 ```bash
 python Task1/SentEmbed.py
