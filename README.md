@@ -32,7 +32,7 @@ The Task 1 directory contains the script `SentEmbed.py`, which is used for gener
     python Task1/SentEmbed.py
     ```
 
-Note: Please pay extra attention to the sentences used in Task 1!
+### Note: Please pay extra attention to the sentences used in Task 1!
 ### Task 2
 
 The Task 2 directory contains code for multi-task learning expansion task.
