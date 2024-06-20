@@ -1,29 +1,32 @@
-Tasks for the Apprentinceship program at FETCH.
+# FetchRewardsTasks
 
-Summary of Task 4:
-Rationale for Layer-wise Learning Rates:
-Fine-tuning Pre-trained Layers:
+Tasks for the Apprenticeship program at FETCH.
 
-Pre-trained transformer layers have already learned useful representations during the pre-training phase. A smaller learning rate (encoder_lr) helps in fine-tuning these layers gently, ensuring that the pre-trained knowledge is not lost abruptly.
-Training New Layers:
+## Setup
 
-The classifier heads (classifier_task_a and classifier_task_b) are new and randomly initialized. These layers require a higher learning rate (classifier_lr) to learn task-specific features quickly.
-Regularization:
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/chandanasy/FetchRewardsTasks.git
+    cd FetchRewardsTasks
+    ```
 
-Weight decay is used to prevent overfitting. Different weight decay values can be set for parameters that do not include bias and LayerNorm weights to maintain stability during training.
+2. **Create a virtual environment and activate it:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
 
-Layer-wise Learning Rates:
+3. **Install the required dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Base Learning Rate: 2e-5
-Encoder Learning Rate: 2e-5
-Classifier Learning Rate: 1e-4
-Reason: Different learning rates help preserve the pre-trained knowledge in the encoder while allowing the newly added classifier heads to learn quickly.
-Optimizer:
-AdamW Optimizer: Suitable for transformer models, providing adaptive learning rates and weight decay.
-Sceduler:
-Linear Scheduler with Warmup: Helps stabilize training initially by gradually increasing the learning rate.
-Training Process:
+## Running the Code
 
-Accumulate Gradients: Used to update weights less frequently, which helps when working with smaller batch sizes.
-Checkpointing: Ensures training progress is saved periodically, allowing resumption from the last checkpoint if needed.
-By using layer-wise learning rates, the model can achieve better convergence and performance, as it allows different parts of the model to learn at their own optimal rates.
+### Task 1
+
+To run the code for Task 1, execute the following command:
+```bash
+python Task1/SentEmbed.py
+
+
