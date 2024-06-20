@@ -32,10 +32,6 @@ The Task 1 directory contains the script `SentEmbed.py`, which is used for gener
     python Task1/SentEmbed.py
     ```
 
-
-**Sample Output:**
-The script will generate embeddings for the input sentences and save them in a specified format (e.g., `.npy` file). These embeddings can be used for various downstream tasks such as clustering, classification, etc.
-
 ### Task 2
 
 The Task 2 directory contains code for multi-task learning expansion task.
@@ -44,8 +40,6 @@ The Task 2 directory contains code for multi-task learning expansion task.
     python Task2/main.py
     ```
 
-**Description:**
-The `main.py` script orchestrates the entire process of loading the dataset, training the model, and evaluating its performance. 
 
 ### Task 3
 
